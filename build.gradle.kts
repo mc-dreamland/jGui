@@ -32,6 +32,13 @@ repositories {
 }
 
 dependencies {
+    if (project.name == "1.21.8-neoforge") {
+        mappings(loom.layered {
+            mappings("net.fabricmc:yarn:1.21.8+build.1:v2")
+            mappings(rootProject.file("versions/1.21.8-neoforge/neoforge-mapping-fixes.tiny"))
+        })
+    }
+
     api("com.github.ReplayMod:lwjgl-utils:27dcd66")
 
     if (!platform.isFabric) {

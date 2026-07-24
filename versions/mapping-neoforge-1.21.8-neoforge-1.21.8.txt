@@ -1,0 +1,1 @@
+# Mapping from 1.21.8 (Fabric) to 1.21.8-neoforge (NeoForge) for jGui.
