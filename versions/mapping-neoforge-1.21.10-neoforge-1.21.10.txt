@@ -1,0 +1,1 @@
+# Mapping from 1.21.10 (Fabric) to 1.21.10-neoforge (NeoForge) for jGui.
