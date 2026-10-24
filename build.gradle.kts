@@ -37,6 +37,7 @@ dependencies {
     val yarnWithNeoForgeFixes = mapOf(
         "1.21.8-neoforge" to "net.fabricmc:yarn:1.21.8+build.1:v2",
         "1.21.10-neoforge" to "net.fabricmc:yarn:1.21.10+build.2:v2",
+        "1.21.11-neoforge" to "net.fabricmc:yarn:1.21.11+build.4:v2",
     )[project.name]
     if (yarnWithNeoForgeFixes != null) {
         mappings(loom.layered {
